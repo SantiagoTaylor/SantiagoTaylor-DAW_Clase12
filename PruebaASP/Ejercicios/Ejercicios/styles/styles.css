@@ -1,0 +1,24 @@
+﻿body {
+}
+
+.main__form{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+}
+
+.main__form span{
+    height: 22px;
+    display:block;
+}
+
+.main__form input, select {
+    height: 16.8px;
+    display:block;
+}
+
+.btn__aceptar{
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
